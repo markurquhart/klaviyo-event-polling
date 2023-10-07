@@ -1,0 +1,2 @@
+# Python script for polling events
+This script does an initial request to get all events from your Klaviyo instance, and then batches them to your endpoint in size of 200 events per request. After that, the script listens for new events every X minute and sends those deltas to the endpoint you defined.
