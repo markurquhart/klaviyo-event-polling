@@ -107,4 +107,3 @@ while True:
         time.sleep(POLLING_INTERVAL)
     except Exception as e:
         logging.error(f"Error occurred: {e}")
-
