@@ -1,2 +1,6 @@
 # .env file
 .env
+
+# state files
+app.log
+last_processed_timestamp.txt
